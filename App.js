@@ -55,6 +55,7 @@ export default function App() {
       <Text style={styles.heading}>My Todo App</Text>
       <TodoInput addTodo={addTodo} />
       <TodoList todos={todos} deleteTodoItem={deleteTodoItem} toggleTodo={toggleTodo} />
+      <Text style={{textAlign : 'center'}} >2024 @ Mohd Abdullah</Text>
     </View>
   );
 }
@@ -63,7 +64,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    paddingTop: 15,
+    paddingTop: 20,
   },
   heading: {
     fontSize: 40,
